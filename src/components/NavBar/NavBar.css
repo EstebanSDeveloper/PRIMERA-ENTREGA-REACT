@@ -37,3 +37,17 @@
     color: transparent;
    
 }
+
+/* ESTO ES COMO ESTABA EL FILTRO EN CARD
+            
+/* <div className="cards-container">
+            {productosList.filter((productos) => productos.category ==="low-sugar")
+            .map((product, i) => (
+                <BaseCard key= {i}
+                name = {product.name}
+                image = {product.image}
+                price = {product.price}
+                category = {product.category}
+                />
+            ))}
+            </div> */

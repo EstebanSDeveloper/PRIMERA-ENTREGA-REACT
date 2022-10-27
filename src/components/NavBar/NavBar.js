@@ -1,4 +1,4 @@
-import CategoryButton from "./CategoryButton/CategoryButton"
+import CategoryButton from "./CarButton/CategoryButton"
 import './NavBar.css';
 import logo from '../../assets/imagenes/logo.png';
 
@@ -14,16 +14,16 @@ function NavBar() {
       <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link text-white" className="glow" aria-current="page" href="#">Home</a>
+            <a class="nav-link text-white" className="glow" aria-current="page" href="https://www.google.com/">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" className="glow" href="#">Cereal Flavors</a>
+            <a class="nav-link text-white" className="glow" href="https://www.google.com/">Cereal Flavors</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" className="glow" href="#">Bars</a>
+            <a class="nav-link text-white" className="glow" href="https://www.google.com/">Bars</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" className="glow" href="#">Bundles</a>
+            <a class="nav-link text-white" className="glow" href="https://www.google.com/">Bundles</a>
           </li>
         </ul>
         <span class="navbar-text">

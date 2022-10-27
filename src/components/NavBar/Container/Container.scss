@@ -1,7 +1,7 @@
 .main-container{
     background: linear-gradient(25deg, rgba(200,47,255,1) 0%, rgba(0,255,239,1) 100%);
     width: auto;
-    height: 600px;    
+    height: 350px;    
     font-family: 'nunito', sans-serif;
     font-weight:800;
     
@@ -9,4 +9,15 @@
 
 .text-main{
     padding-top: 40px;
+}
+
+.container-link-categorias{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8rem;
+}
+
+.texto-links{
+    font-size: 2rem;
+    text-decoration: none;
 }

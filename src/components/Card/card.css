@@ -1,0 +1,105 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.link{
+    text-decoration: none;
+    color: unset;
+}
+
+.best-sellers { 
+    font-family: 'Poppins', sans-serif;
+    font-weight: 1000;
+    font-size: 5rem;
+    background: linear-gradient(100deg, rgb(87, 237, 140) 0%, hwb(24 40% 0%) 50%, rgb(209, 105, 232) 100%);
+    background-clip: text;
+    color: transparent;
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1040px) {
+
+    .best-sellers { 
+        font-family: 'Poppins', sans-serif;
+        font-weight: 1000;
+        font-size: 3rem;
+        background: linear-gradient(100deg, rgb(87, 237, 140) 0%, hwb(24 40% 0%) 50%, rgb(209, 105, 232) 100%);
+        background-clip: text;
+        color: transparent;
+        margin: 2rem;
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        text-align: center;
+    }
+
+}
+
+@media only screen and (max-width: 581px) {
+
+    .best-sellers { 
+        font-family: 'Poppins', sans-serif;
+        font-weight: 1000;
+        font-size: 2rem;
+        background: linear-gradient(100deg, rgb(87, 237, 140) 0%, hwb(24 40% 0%) 50%, rgb(209, 105, 232) 100%);
+        background-clip: text;
+        color: transparent;
+        margin: 2rem;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+    }
+
+}
+
+.card-cereals{
+    width: 25rem;
+}
+
+.img-cereals{
+    width: 25rem;
+    border-radius: 25px;
+}
+
+.precio-text{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.cereal-name{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+.card-productos{
+    margin-left: 5rem;
+    margin-right: 5rem;
+    color: rgb(90, 90, 90);
+}
+
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.category-text{
+    color: rgb(33, 171, 158);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.category-id{
+    display: flex;
+    justify-content: space-between
+}
+
